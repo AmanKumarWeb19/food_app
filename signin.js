@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Simulate a simple authentication check (replace with your actual authentication logic)
     if (username === "user" && password === "password") {
       // Redirect to home page
-      window.location.href = "home.html";
+      window.location.href = "index.html";
     } else {
       errorMessage.textContent = "Invalid username or password.";
     }
   });
 });
 
-// 
+//
